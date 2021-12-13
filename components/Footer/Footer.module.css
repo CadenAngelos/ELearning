@@ -1,0 +1,53 @@
+.rewardLeman {
+	margin: 0 auto;
+	padding-top: 50px;
+	display: block;
+}
+
+.iconArr img {
+	margin: 23px auto;
+	display: block;
+}
+.title {
+	font-weight: bold;
+	font-size: 24px;
+	color: #0468be;
+}
+.footer_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 150px;
+	margin-bottom: 25px;
+	gap: 20px;
+	padding-bottom: 32px;
+	border-bottom: 1px solid #506663;
+}
+
+.footer_list {
+	padding-left: 0;
+}
+
+.footer_list li {
+	margin-top: 20px;
+}
+
+.footer_contact {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 25px;
+	gap: 15px;
+}
+
+.footer_component {
+	flex: 1;
+}
+
+.member {
+	margin-top: 24px;
+}
+
+.copyright {
+	display: flex;
+	padding: 0 150px 25px 150px;
+	justify-content: space-between;
+}
