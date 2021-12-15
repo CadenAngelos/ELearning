@@ -1,98 +1,8 @@
-.top {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 0 0 0 50px;
-	padding: 16px 150px 16px 0;
-}
-
-.topLemanLogo img {
-	max-width: 100%;
-}
-
-.topContact {
-	display: flex;
-	gap: 26px;
-	align-items: center;
-	justify-content: center;
-	flex-flow: row;
-}
-
-.topContact__inner {
-	display: flex;
-	flex-flow: column;
-	gap: 16px;
-}
-
-.topContact__language_icons {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	gap: 16px;
-}
-
-.top_contact__info {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 16px;
-}
-
-.top_contact__info_text {
-	color: #000;
-}
-
-.top_contact__info a {
-	display: flex;
-	align-items: center;
-	gap: 4px;
-}
-
-.top_contact__info a span:first-child {
-	width: 18px;
-	height: 18px;
-	display: inline-block;
-}
-.top_contact__info a span img {
-	max-width: 100%;
-}
-
-.social_icons {
-	display: flex;
-	gap: 25px;
-}
-
-.social_icons a {
-	width: 18px;
-	height: 18px;
-}
-
-.social_icons a img {
-	max-width: 100%;
-}
-
-.flagIcon {
-	background-color: #ea403f;
-	padding: 3px 7px;
-	display: inline-block;
-	border-radius: 2px;
-	margin-left: 10px;
-}
-
-.contact_phone:after {
-	content: "";
-	height: 18px;
-	border-left: 1px solid #3f3f3f;
-	margin-left: 14px;
-}
-
 .bottom {
 	display: flex;
 	justify-content: space-between;
-	height: 64px;
+	height: 50px;
 	width: 100%;
-	padding: 0 0px 0 0px;
-	background: linear-gradient(97.13deg, #0468be -5.97%, #049dd9 102.69%);
 }
 
 .bottom_nav_bar {
@@ -115,7 +25,7 @@
 
 .bottom_nav_bar ul li a {
 	display: block;
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	margin: 22px 0;
 	text-align: center;
@@ -135,12 +45,12 @@
 
 .bottom_contact_search_btn__btn a {
 	display: inline-block;
-	color: #0468be;
-	background-color: #fff;
+	color: #fff;
+	background-color: #0468be;
 	padding: 9px 18px;
 	margin: 12px 0;
 	font-weight: bold;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 .active {

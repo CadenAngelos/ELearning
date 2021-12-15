@@ -24,7 +24,10 @@ function Header() {
 				</div>
 				<div className={styles.bottom_contact_search_btn}>
 					<div className={styles.bottom_contact_search_btn__btn}>
-						<a href="#">LIÊN HỆ NGAY</a>
+						<a href="#">Register</a>
+					</div>
+					<div className={styles.bottom_contact_search_btn__btn}>
+						<a href="#">LogIn</a>
 					</div>
 				</div>
 			</div>
