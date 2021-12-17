@@ -1,0 +1,15 @@
+.banner {
+	background-image: url("../../public/images/banner.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 604px;
+	width: 100%;
+	position: relative;
+}
+
+.banner_icons {
+	position: fixed;
+	right: 68px;
+	bottom: 14px;
+}

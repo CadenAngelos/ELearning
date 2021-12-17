@@ -2,10 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../layouts/Layout'
 import styles from '../styles/Home.module.css'
-
+import News0 from '../components/News/News0'
+import Rewards from '../components/Rewards/Rewards'
+import Counsel from '../components/Counsel/Counsel'
+import Banner from '../components/Banner/Banner'
 export default function Home() {
   return (
     <Layout>
+      <Banner/> 
       <div className={styles.genernal_intro_container} className='grid mx-44 my-10 grid-cols-2'>
         <div className={styles.general_intro__img}>
             <img src="images/generalIntro.svg" alt="General Intro Image" />
@@ -20,8 +24,11 @@ export default function Home() {
             <div className={styles.general_intro__btn}>
                 <a href="#">XEM THÊM</a>
             </div>
-          </div>
         </div>
+      </div>
+      <News0 />
+      <Rewards />
+      <Counsel />
     </Layout>
   )
 }
