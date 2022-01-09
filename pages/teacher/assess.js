@@ -8,7 +8,7 @@ export default function Couses() {
   const [showModal, setShowModal] = useState(false);
   return (
     <Layout>
-    <div className={styles.assess}>
+    <div className="max-w-2xl mx-auto sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className={styles.title}>DANH SÁCH HỌC VIÊN</div>
         <div>
         <div className="flex flex-col">

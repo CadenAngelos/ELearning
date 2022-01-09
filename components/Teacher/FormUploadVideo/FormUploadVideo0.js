@@ -8,7 +8,7 @@ function FormUploadVideo() {
     const validationSchema = Yup.object().shape({
         name: Yup.string()
             .required('Tên video không được để trống.')
-            .max(100,'Tên không quá 100 ký tự.'),
+            .max(50,'Tên không quá 50 ký tự.'),
         about: Yup.string()
             .max(1000,'Mô tả không quá 1000 ký tự.')
     });
@@ -21,7 +21,7 @@ function FormUploadVideo() {
 
     function onSubmit(data) { // update
         // display form data on success
-        alert('SUCCESS!! :-)\n\n' + JSON.stringify(data, null, 4));
+        alert('Video tải lên thành công!! :-)\n\n'); //+ JSON.stringify(data, null, 4));
         return false;
     }
 

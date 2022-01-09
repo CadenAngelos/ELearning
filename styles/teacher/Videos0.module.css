@@ -1,27 +1,8 @@
-.videos {
-	margin: 20px 150px;
-}
-
-.videos_top {
-    display: flex;
-	justify-content: space-between;
-    margin: 40px 0;
-}
-
 .title,
-.modal_name_delete,
-.modal_name_add {
+.modal_name_delete{
 	font-weight: bold;
 	font-size: 24px;
 	color: #0468be;
-}
-
-.btn_delete button {
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: crimson;
-    background: none;
 }
 
 .btn_add button,
@@ -32,10 +13,6 @@
 	border-radius: 5px;
     padding: 8px 24px;
     border: none;
-}
-
-.modal_body button {
-    margin:40px 243px;
 }
 
 .modal_name_delete {
