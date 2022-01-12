@@ -1,4 +1,4 @@
-import React from 'react'
+Limport React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 
@@ -30,9 +30,7 @@ function Header() {
 						</Link>
 					</div>
 					<div className={styles.bottom_contact_search_btn__btn}>
-						<Link href="/signin/login">
-						<a>Login</a>
-						</Link>
+						<a href="/signin/login">Login</a>
 					</div>
 				</div>
 			</div>

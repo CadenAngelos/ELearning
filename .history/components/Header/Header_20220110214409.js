@@ -30,7 +30,7 @@ function Header() {
 						</Link>
 					</div>
 					<div className={styles.bottom_contact_search_btn__btn}>
-						<Link href="/signin/login">
+						<Link href="/signin/register">
 						<a>Login</a>
 						</Link>
 					</div>
